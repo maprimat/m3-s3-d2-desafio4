@@ -1,0 +1,23 @@
+// Importar Bootstrap desde Node_Modules
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Manifiestos
+
+//1. abstracts
+@import './abstracts/custom_bootstrap', './abstracts/variables';
+
+//2. base
+@import './base/reset', './base/typography';
+
+//3. components
+@import './components/buttons', './components/cards', './components/logos';
+
+//4. layout
+@import './layout/header', './layout/main', './layout/skills', './layout/works', './layout/contact';
+
+//5. pages
+
+//6. themes
+
+//7. vendors
+

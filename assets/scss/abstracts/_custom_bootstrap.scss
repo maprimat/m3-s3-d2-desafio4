@@ -1,0 +1,13 @@
+// Create your own map
+$custom-colors: (
+    // Background Color
+    "color1": #0B0C10,
+    // Accents
+    "color2": #1F2833,
+    "color3": #C5C6C7,
+    "color4": #66FCF1,
+    "color5": #45A29E
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);

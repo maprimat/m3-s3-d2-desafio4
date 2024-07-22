@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- TITLE -->
+    <title>Mi primer Portafolio</title>
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Matias Prieto" />
+    <meta name="keywords" content="portfolio, bootstrap, js, desarrollador web" />
+    <meta name="description" content="Portfolio de Desarrollador Web" />
+    <!-- CUSTOM CSS  -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="main-content">
+
+    <!-- CONTAINER -->
+    <div class="container">
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="logo navbar-brand" href="#">MatiasPrieto</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link mx-1" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link mx-1" href="#skills">Mis habilidades</a>
+                        <a class="nav-link mx-1" href="#works">Proyectos</a>
+                        <a class="nav-link mx-1" href="#contact">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HEADER -->
+        <header class="header py-5">
+            <div class="row">
+                <div class="header__image col-12 col-lg-6 m-auto">
+                    <img class="img-fluid" src="./assets/img/developer.svg" alt="developer" />
+                </div>
+                <div class="col-12 col-lg-6 m-auto">  
+                    <h1 class="header__title pt-5">
+                        Soy Matias Prieto
+                    </h1>
+                    <h2 class="header__subtitle">
+                        Desarrollador FrontEnd
+                    </h2>
+                    <p class="header__text">
+                        Lorem Ipsum es simplemente el texto de relleno de
+                        las imprentas y archivos de texto. Lorem Ipsum ha
+                        sido el texto de relleno estándar de las industrias
+                        desde el año 1500, cuando un impresor (N. del T.
+                        persona que se dedica a la imprenta) desconocido usó
+                        una galería de textos y los mezcló de tal manera que
+                        logró hacer un libro de textos especimen.
+                    </p>
+                    <a class="nav-link" href="#contact">
+                        <div class="d-grid d-md-block">
+                            <button type="button" class="btn btn-primary">Contáctame</button>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </header>
+
+        <!-- MAIN -->
+        <main>
+
+            <!-- HABILIDADES -->
+            <section id="skills" class="skills py-3">
+                <h2 class="skills__title text-center pb-4">Mis habilidades</h2>
+
+                <div class="row justify-content-between py-4 g-3">
+
+                    <div class="col-6 col-md-1">
+                        <img src="./assets/img/file_type_html_icon.png" alt="Logo HTML" />
+                        <span>HTML</span>
+                    </div>
+
+                    <div class="col-6 col-md-1">
+                        <img src="./assets/img/file_type_css_icon.png" alt="Logo CSS" />
+                        <span>CSS</span>
+                    </div>
+
+                    <div class="col-6 col-md-1">
+                        <img src="./assets/img/file_type_sass_icon.png" alt="Logo SASS" />
+                        <span>Sass</span>
+                    </div>
+
+                    <div class="col-6 col-md-1">
+                        <img src="./assets/img/bootstrap_plain_logo_icon.png" alt="Logo Bootstrap" />
+                        <span>Bootstrap</span>
+                    </div>
+
+                    <div class="col-6 col-md-1">
+                        <img src="./assets/img/file_type_git_icon.png" alt="Logo GIT" />
+                        <span>Git</span>
+                    </div>
+
+                    <div class="col-6 col-md-1">
+                        <img src="./assets/img/github-logo_icon-icons.com.png" alt="Logo GitHub" />
+                        <span>GitHub</span>
+                    </div>
+
+                    <div class="col-6 col-md-1">
+                        <img src="./assets/img/javascript_icon.png" alt="Logo JS" />
+                        <span>JScript</span>
+                    </div>
+
+                    <div class="col-6 col-md-1">
+                        <img src="./assets/img/file_type_vue_icon.png" alt="Logo Vue" />
+                        <span>Vue</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROYECTOS -->
+            <section id="works" class="works py-3">
+                <h2 class="works__title text-center pb-4">Mis proyectos</h2>
+
+                <div class="row">
+                    <div class="col-6 col-md-3 my-2">
+                        <div class="card">
+                            <img src="./assets/img/meetcoffee.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Meet & Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3 my-2">
+                        <div class="card">
+                            <img src="./assets/img/meetcoffee.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Meet & Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3 my-2">
+                        <div class="card">
+                            <img src="./assets/img/meetcoffee.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Meet & Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3 my-2">
+                        <div class="card">
+                            <img src="./assets/img/meetcoffee.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Meet & Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACTO -->
+            <section id="contact" class="contact py-3">
+                <h2 class="contact__title text-center pb-4">Contactame</h2>
+
+                <div class="row">
+
+                    <div class="col-12 col-md-6">
+                        <form>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" id="name" placeholder="Nombre">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" id="lastname" placeholder="Apellido">
+                                </div>
+                            </div>
+
+                            <div class="py-3">
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                            </div>
+
+                            <div>
+                                <textarea class="form-control" id="message" rows="3" placeholder="Escribe tu mensaje"></textarea>
+                            </div>
+
+                            <div class="d-grid d-md-block pt-3">
+                                <button class="btn btn-primary">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="contact__data col-12 col-md-6 my-3">
+                            <div class="pb-2">
+                                <span class="fa-solid fa-phone"></span>
+                                <span class="mx-4">+56 9 1234 5678</span>
+                            </div>
+                            <div class="pb-2">
+                                <span class="fa-solid fa-phone"></span>
+                                <span class="mx-4">matiasprietomatu@gmail.com</span>
+                            </div>
+                            <div class="pb-2">
+                                <span class="fa-brands fa-linkedin"></span>
+                                <span class="mx-4">@maprimat</span>
+                            </div>
+                            <div class="pb-2">
+                                <span class="fa-brands fa-github"></span>
+                                <span class="mx-4">@maprimat</span>
+                            </div>
+                            <div>
+                                <span class="fa-brands fa-instagram"></span>
+                                <span class="mx-4">@instagram</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- BOOTSTRAP CSS 5.3.3 -->
+    <script defer src="./assets/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
